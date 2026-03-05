@@ -144,7 +144,7 @@ input, select, textarea {
 		}
 
 	body {
-		color: #212931;
+		color: #000000;
 	}
 
 	body, input, select, textarea {
@@ -288,11 +288,11 @@ input, select, textarea {
 	}
 
 	input, select, textarea {
-		color: #212931;
+		color: #000000;
 	}
 
 	a {
-		color: #212931;
+		color: #000000;
 		border-bottom-color: rgba(33, 41, 49, 0.5);
 	}
 
@@ -302,11 +302,12 @@ input, select, textarea {
 		}
 
 	strong, b {
-		color: #212931;
+		color: #000000;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #212931;
+		/* color: #212931; */
+		color: #000000;
 	}
 
 	blockquote {
@@ -2206,8 +2207,8 @@ input, select, textarea {
 	button,
 	.button {
 		background-color: transparent;
-		box-shadow: inset 0 0 0 2px #212931;
-		color: #212931 !important;
+		box-shadow: inset 0 0 0 2px #000000;
+		color: #000000 !important;
 	}
 
 		input[type="submit"]:hover,
@@ -2224,7 +2225,7 @@ input, select, textarea {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
-			background-color: #212931;
+			background-color: #000000;
 			box-shadow: none;
 			color: #ffffff !important;
 		}
@@ -2475,7 +2476,7 @@ input, select, textarea {
 	}
 
 	label {
-		color: #212931;
+		color: #000000;
 	}
 
 	input[type="text"],
@@ -2500,7 +2501,7 @@ input, select, textarea {
 
 		select option {
 			background-color: #ffffff;
-			color: #212931;
+			color: #000000;
 		}
 
 	.select-wrapper:before {
@@ -2509,7 +2510,7 @@ input, select, textarea {
 
 	input[type="checkbox"] + label,
 	input[type="radio"] + label {
-		color: #212931;
+		color: #000000;
 	}
 
 		input[type="checkbox"] + label:before,
@@ -2519,8 +2520,8 @@ input, select, textarea {
 
 	input[type="checkbox"]:checked + label:before,
 	input[type="radio"]:checked + label:before {
-		background-color: #212931;
-		border-color: #212931;
+		background-color: #000000;
+		border-color: #000000;
 		color: #ffffff;
 	}
 
@@ -3085,7 +3086,7 @@ input, select, textarea {
 		}
 
 	table th {
-		color: #212931;
+		color: #000000;
 	}
 
 	table thead {
@@ -3194,7 +3195,7 @@ input, select, textarea {
 	}
 
 	.pagination a {
-		color: #212931 !important;
+		color: #000000 !important;
 	}
 
 		.pagination a:hover {
@@ -3234,7 +3235,7 @@ input, select, textarea {
 			left: 0;
 			width: 100%;
 			height: 100%;
-			background-color: #212931;
+			background-color: #000000;
 			background-image: url("../../images/overlay.png"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/earth.jpg");
 			background-size: auto,								auto,														100% auto;
 			background-position: center,								center,														top center;
@@ -3251,15 +3252,15 @@ input, select, textarea {
 
 		#wrapper.fade-in:before {
 			pointer-events: none;
-			-moz-transition: opacity 1s ease-in-out;
+			/* -moz-transition: opacity 1s ease-in-out;
 			-webkit-transition: opacity 1s ease-in-out;
 			-ms-transition: opacity 1s ease-in-out;
 			transition: opacity 1s ease-in-out;
 			-moz-transition-delay: 0.75s;
 			-webkit-transition-delay: 0.75s;
 			-ms-transition-delay: 0.75s;
-			transition-delay: 0.75s;
-			background: #1e252d;
+			transition-delay: 0.75s; */
+			/* background: #1e252d; */
 			content: '';
 			display: block;
 			height: 100%;
@@ -3303,10 +3304,10 @@ input, select, textarea {
 		-webkit-justify-content: -webkit-flex-end;
 		-ms-justify-content: -ms-flex-end;
 		justify-content: flex-end;
-		-moz-transition: opacity 1s ease, -moz-transform 1s ease;
-		-webkit-transition: opacity 1s ease, -webkit-transform 1s ease;
-		-ms-transition: opacity 1s ease, -ms-transform 1s ease;
-		transition: opacity 1s ease, transform 1s ease;
+		/* -moz-transition: opacity 1s ease, -moz-transform 1s ease;  */
+		/* -webkit-transition: opacity 1s ease, -webkit-transform 1s ease; */
+		/* -ms-transition: opacity 1s ease, -ms-transform 1s ease; */
+		/* transition: opacity 1s ease, transform 1s ease;  */
 		position: relative;
 		cursor: default;
 		text-align: center;
@@ -3426,30 +3427,30 @@ input, select, textarea {
 			visibility: hidden;
 		}
 
-			#intro.hidden + #header .logo {
+			/* #intro.hidden + #header .logo {
 				-moz-transform: translateY(0);
 				-webkit-transform: translateY(0);
 				-ms-transform: translateY(0);
 				transform: translateY(0);
 				opacity: 1;
 				visibility: visible;
-			}
+			} */
 
-		body.is-preload #intro {
+		/* body.is-preload #intro {
 			-moz-transform: translateY(2rem);
 			-webkit-transform: translateY(2rem);
 			-ms-transform: translateY(2rem);
 			transform: translateY(2rem);
 			opacity: 0;
-		}
+		}*/
 
-			body.is-preload #intro:not(.hidden) + #header + #nav {
+			/* body.is-preload #intro:not(.hidden) + #header + #nav {
 				-moz-transform: translateY(4rem);
 				-webkit-transform: translateY(4rem);
 				-ms-transform: translateY(4rem);
 				transform: translateY(4rem);
 				opacity: 0;
-			}
+			}  */
 
 		@media screen and (max-width: 980px) {
 
@@ -3617,7 +3618,7 @@ input, select, textarea {
 		-webkit-transition: -webkit-transform 1s ease, opacity 1s ease;
 		-ms-transition: -ms-transform 1s ease, opacity 1s ease;
 		transition: transform 1s ease, opacity 1s ease;
-		background: rgba(255, 255, 255, 0.175);
+		background: #000000;
 		height: 4rem;
 		line-height: 4rem;
 		margin: -4rem auto 0 auto;
@@ -3672,7 +3673,7 @@ input, select, textarea {
 		}
 
 		#nav code {
-			background: rgba(255, 255, 255, 0.075);
+			background: #000000;
 			border-color: #ffffff;
 		}
 
@@ -3720,7 +3721,8 @@ input, select, textarea {
 
 					#nav ul.links li a:hover {
 						color: inherit !important;
-						background-color: rgba(255, 255, 255, 0.1);
+						/* background-color: rgba(255, 255, 255, 0.1); */
+						background-color: #000000;
 					}
 
 				#nav ul.links li.active {
@@ -3728,7 +3730,7 @@ input, select, textarea {
 				}
 
 					#nav ul.links li.active a {
-						color: #1e252d;
+						color: #000000;
 					}
 
 						#nav ul.links li.active a:hover {
@@ -4529,7 +4531,7 @@ input, select, textarea {
 		#navPanelToggle.alt {
 			background-color: rgba(255, 255, 255, 0.875);
 			box-shadow: 0 0.125rem 0.75rem 0 rgba(30, 37, 45, 0.25);
-			color: #212931;
+			color: #000000;
 		}
 
 			#navPanelToggle.alt:hover {
@@ -4566,7 +4568,7 @@ input, select, textarea {
 		-webkit-overflow-scrolling: touch;
 		background: #ffffff;
 		box-shadow: none;
-		color: #212931;
+		color: #000000;
 		height: 100%;
 		max-width: 80%;
 		overflow-y: auto;
@@ -4612,7 +4614,7 @@ input, select, textarea {
 			transition: color 0.2s ease-in-out;
 			-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 			border: 0;
-			color: #909498;
+			color: #000000;
 			cursor: pointer;
 			display: block;
 			height: 3.25rem;
@@ -4645,7 +4647,7 @@ input, select, textarea {
 			}
 
 			#navPanel .close:hover {
-				color: #212931;
+				color: #000000;
 			}
 
 			@media screen and (max-width: 736px) {
@@ -4684,7 +4686,7 @@ input, select, textarea {
 			-webkit-transform: translateX(0);
 			-ms-transform: translateX(0);
 			transform: translateX(0);
-			box-shadow: 0 0 1.5rem 0 rgba(0, 0, 0, 0.2);
+			box-shadow: 0 0 1.5rem 0 #000000;
 			visibility: visible;
 		}
 
